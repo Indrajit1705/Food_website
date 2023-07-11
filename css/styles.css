@@ -93,7 +93,7 @@ header .navbar a{
     color: var(--light-color);
     }
 
-
+header .navbar  a.active,
 header .navbar a:hover{
     color:#fff;
     background:var(--green);
@@ -267,10 +267,12 @@ header .icons #menu-bars{
     }
     .dishes .box-container .box .stars{
        padding: 1rem 0;
+       
 
     }
-    .dishes .box-container .box .stars span{
+    .dishes .box-container .box .stars i{
         font-size: 1.7rem;
+        color:var(--yellow);
      }
      .dishes .box-container .box h4{
         color: #c23e47;
@@ -570,9 +572,7 @@ header .icons #menu-bars{
 
 /* media queries */
 @media(max-width:991px){
-    /* header .icons #menu-bars{
-        display:inline-block;
-    } */
+
 
     html{
         font-size: 55%;

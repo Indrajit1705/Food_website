@@ -26,10 +26,12 @@ window.onscroll = () =>{
       //   document.querySelector('header .navbar a[href*='+id+']').classList.add('active');
 
       //   });
-      });
+    });
 
 
-    }
+  };
+
+
 
 document.querySelector('#search-icon').onclick = () =>{
     document.querySelector('#search-form').classList.toggle('active');
@@ -75,7 +77,8 @@ var swiper = new Swiper(".home-slider", {
       },
       10243:{
           slidesPerView: 3,
-      }
-},
+      },
+     
+    },
 
-});
+  });
